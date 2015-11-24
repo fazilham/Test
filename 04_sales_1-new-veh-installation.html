@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TVS</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+    <link type="text/css" href="css/swiper.min.css" rel="stylesheet">
+    <link type="text/css" href="css/mCustomScrollbar.css" rel="stylesheet">
+    <link type="text/css" href="css/wego.css" rel="stylesheet">
+    <script src="js/libs/jquery-1.11.3.min.js"></script>
+    <script src="js/libs/jquery.mobile-1.4.5.min.js"></script>
+    <script src="js/libs/jquery.easing.1.3.js"></script>
+    <script src="js/libs/jquery.touchSwipe.js"></script>
+    <script src="js/libs/jquery-ui-1.8.21.custom.min.js"></script>
+    <script src="js/libs/jquery.bxslider.min.js"></script>
+    <script src="js/libs/spritespin.js"></script>
+    <script src="js/libs/swiper.jquery.min.js"></script>
+    <script src="js/libs/jquery.mCustomScrollbar.js"></script>
+    <script src="js/custom.js"></script>
+</head>
+<body>
+<!-- Start of first page -->
+<div data-role="page" class="fab-page">
+ <div data-role="header" class="header">
+		 <div class="ui-grid-b">
+      <div class="ui-block-a page-back"><a href="index.html" rel="external"><img src="images/arrow-left.png" alt="Arrow"> </a>SALES DELIVERY</div>
+      <div class="ui-block-b logo" align="center"><a href="javascript:;"><img src="images/logo-tvs.png" alt="TVS"></a></div>
+      <div class="ui-block-c" align="right">
+        <div class="nav-trigger pull-right"><span></span></div>
+      </div>
+    </div>
+  <div class="nav-main">
+        <div class="ui-collapsible-set">
+          <div class="animate-menu">
+              <ul data-role="listview" data-inset="false" data-icon="false" class="bott-nav">
+                  <li><a href="01_corporate_1-intro.html" rel="external"><i><img src="images/icon-about.png" alt=""></i><br>
+                      About TVS</a></li>
+                  <li><a href="02_products.html" rel="external"><i><img src="images/icon-our-bike.png" alt=""></i><br>Our Bikes</a></li>
+                  <li><a href="03_enablers_1-vas.html" rel="external"><i><img src="images/icon-enablers.png" alt=""></i><br>Enablers</a></li>
+                  <li><a href="04_sales_1-new-veh-installation.html" rel="external"><i><img src="images/icon-delivery.png" alt=""></i><br>Delivery</a></li>
+              </ul>
+          </div>
+        </div>
+    </div>
+   </div>
+    <div role="main" class="ui-content bike-color" id="product-demo">
+        <div class="wega">
+			<div class="Mainwegoslide_view">
+            <div class="ui-grid-b">
+                        <div class="wegoslide_view">
+							<div class="swiper-container">
+								<div class="swiper-wrapper">
+									<div class="swiper-slide"><img src="images/wega/360/slide1.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide2.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide3.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide4.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide5.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide6.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide7.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide8.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide9.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide10.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide11.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide12.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide13.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide14.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide15.jpg" alt="image"/></div>
+									<div class="swiper-slide"><img src="images/wega/360/slide16.jpg" alt="image"/></div>
+								</div>
+								<!-- Add Pagination -->
+								<div class="swiper-pagination"></div>
+								<!-- Add Navigation -->
+								<div class="swiper-button-prev"></div>
+								<div class="swiper-button-next"></div>
+							</div>
+                </div>
+            </div>
+			</div>
+        </div>
+    </div>
+ <!-- / Content -->
+<div class="footer">
+    <ul class="pro-bott-nav delivery-nav">
+        <li class="active"><a href="04_sales_1-new-veh-installation.html" rel="external"><div class="sub-menu-L"></div><span>New Vehicle Installation</span></a></li>
+        <li><a href="javascript:;" rel="external"><span>Customer Satisfaction</span><div class="sub-menu-R"></div></a></li>
+</div>
+  </div>
+
+
+
+<script>
+    jQuery(document).ready(function() {
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            slidesPerView: 1,
+            paginationClickable: true,
+            spaceBetween: 30,
+            loop: true
+        });
+    });
+</script>
+</body>
+</html>
